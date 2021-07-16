@@ -25,12 +25,24 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+html {
+	scroll-behavior: smooth;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
 	line-height: 1;
+}
+
+.spacer {
+	margin-bottom: 165px;
+}
+
+.spacer2 {
+	margin-bottom: 145px;
 }
 
 ol, ul {
