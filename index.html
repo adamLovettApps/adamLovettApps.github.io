@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Strata by HTML5 UP</title>
+		<title>Adam Lovett Personal Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,10 +19,15 @@
 				email.value = "";
 				message.value = "";
 			}
+
+			function displayResume() {
+				let resumeDiv = document.getElementById("resume-holder");
+				resumeDiv.style.visibility = "visible"
+			}
 		</script>
 	</head>
 	<body class="is-preload">
-
+		<div id="resume-holder"> <embed src="https://drive.google.com/file/d/12vMBINKZ_VIprvx-1adHtT7Fr1o4zyxM/view?usp=sharing"/></div>
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
@@ -35,7 +40,7 @@
 
 		<!-- Main -->
 			<div id="main">
-
+				
 				<!-- One -->
 					<section id="one">
 						<header class="major">
@@ -49,7 +54,7 @@
 						</p>
 						
 						<ul class="actions">
-							<li><a href="#recent" class="button">Recent Work</a> <a href="#getintouch" class="button">Get In Touch</a></li>
+							<li><a href="#recent" class="button">Recent Work</a> <a href="#getintouch" class="button">Get In Touch</a> <a href="#" class="button" onclick=displayResume()>Resume</a></li>
 						</ul>
 					</section>
 					<div class="spacer"></div>
