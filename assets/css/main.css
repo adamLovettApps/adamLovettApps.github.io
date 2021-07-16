@@ -42,7 +42,7 @@ body {
 }
 
 .spacer2 {
-	margin-bottom: 145px;
+	margin-bottom: 177px;
 }
 
 ol, ul {
@@ -2586,6 +2586,8 @@ input, select, textarea {
 
 /* Header */
 
+
+
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2605,11 +2607,11 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bg.png");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.9);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2637,6 +2639,8 @@ input, select, textarea {
 
 		#header strong, #header b {
 			color: #ffffff;
+			text-shadow: 1px 1px 5px black;
+			font-weight: 600;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2644,10 +2648,11 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.7);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+			text-shadow: 1px 1px 5px black;
 		}
 
 		#header .image.avatar {

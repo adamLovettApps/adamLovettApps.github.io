@@ -10,6 +10,16 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script>
+			function clearForm() {
+				let name = document.getElementById("name");
+				let email = document.getElementById("email");
+				let message = document.getElementById("message");
+				name.value = "";
+				email.value = "";
+				message.value = "";
+			}
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -93,16 +103,16 @@
 						<p>I am currently open to full time and freelance positions in Los Angeles and the San Francisco Bay Area, and all remote opportunities. Please reach out if you think I might be a good fit for your organization!</p>
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form method="post" action="#">
+								<form method="POST" action="https://formspree.io/f/xoqynndk">
 									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" required/></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required/></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4" required></textarea></div>
 									</div>
+									<ul style="margin-top: 10px" class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+									</ul>
 								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
@@ -452,6 +462,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<li><a href="https://www.twitter.com/adamLovettApps" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="https://www.github.com/adamLovettApps" class="icon brands fa-github"><span class="label">Github</span></a></li>
 						<li><a href="https://www.linkedin.com/in/adam-lovett-896455196/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://angel.co/u/adam-lovett" class="icon brands fa-angellist"><span class="label">AngelList</span></a></li>
 						<li><a href="mailto:adamlovett@alumni.usc.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
