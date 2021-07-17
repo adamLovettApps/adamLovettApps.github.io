@@ -37,6 +37,18 @@ body {
 	line-height: 1;
 }
 
+.technology-span {
+	color: #5cc6a7;
+	-moz-transition: color 0.8s ease-in-out;
+	-webkit-transition: color 0.8s ease-in-out;
+	-ms-transition: color 0.8s ease-in-out;
+	transition: color 0.8s ease-in-out;
+}
+
+.technology-span:hover {
+	color: #3eb08f;
+}
+
 .education {
 	width: 100%;
 	text-align:justify;
@@ -1885,6 +1897,9 @@ input, select, textarea {
 			border-color: #49bf9d;
 		}
 
+	textarea {
+		resize: none;
+	}
 	select {
 		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dfdfdf' /%3E%3C/svg%3E");
 		background-size: 1.25rem;
@@ -2473,6 +2488,10 @@ input, select, textarea {
 
 /* Button */
 
+	.button {
+		margin-right: 20px;
+	}
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -2487,7 +2506,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #5cc6a7;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2506,8 +2525,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #3eb08f;
+			color: #3eb08f !important;
 		}
 
 		input[type="submit"]:active,
@@ -2515,8 +2534,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #3eb08f;
+			color: #3eb08f !important;
 		}
 
 		input[type="submit"].icon,
