@@ -37,6 +37,22 @@ body {
 	line-height: 1;
 }
 
+.education {
+	width: 100%;
+	text-align:justify;
+}
+
+.search-over {
+	font-weight: 900;
+	color: #3eb08f;
+}
+
+/* .education-span {
+	width: 350px;
+	height:1em;
+	display:inline-block;
+} */
+
 #resume-holder {
 	z-index: 2;
 	position: fixed;
@@ -2160,6 +2176,7 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
+			box-shadow: 2px 2px 15px #3eb08f, -2px -2px 15px #3eb08f, -2px 2px 15px #3eb08f, 2px -2px 15px #3eb08f;
 		}
 
 			.image.avatar:before {
