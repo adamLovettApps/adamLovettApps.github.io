@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
-			box-shadow: 2px 2px 15px #3eb08f, -2px -2px 15px #3eb08f, -2px 2px 15px #3eb08f, 2px -2px 15px #3eb08f;
+			box-shadow: 1px 1px 15px #3eb08f, -1px -1px 15px #3eb08f, -1px 1px 15px #3eb08f, 1px -1px 15px #3eb08f;
 		}
 
 			.image.avatar:before {
